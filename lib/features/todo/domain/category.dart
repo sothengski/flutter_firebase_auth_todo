@@ -42,7 +42,7 @@ class Category {
       'name': name,
       'description': description,
       'status': status,
-      'createdAt': createdAt?.toIso8601String(),
+      'createdAt': createdAt != null ? Timestamp.fromDate(createdAt!) : null,
       'updatedAt': updatedAt?.toIso8601String(),
     };
   }

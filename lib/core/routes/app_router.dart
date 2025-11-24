@@ -1,4 +1,4 @@
-import 'package:flutter_firebase_auth_todo/core/di/firebase_repository.dart';
+import 'package:flutter_firebase_auth_todo/core/data/firebase_repository.dart';
 import 'package:flutter_firebase_auth_todo/core/routes/go_router_refresh_stream.dart';
 import 'package:flutter_firebase_auth_todo/features/auth/presentation/account/custom_account_screen.dart';
 import 'package:flutter_firebase_auth_todo/features/auth/presentation/signin/custom_signin_screen.dart';

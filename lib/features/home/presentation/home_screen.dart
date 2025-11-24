@@ -1,8 +1,12 @@
 import 'package:faker/faker.dart';
+// import 'package:cloud_functions/cloud_functions.dart';
+
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase_auth_todo/core/di/firebase_repository.dart';
-import 'package:flutter_firebase_auth_todo/core/di/firestore_repository.dart';
+import 'package:flutter_firebase_auth_todo/core/data/firebase_repository.dart';
+import 'package:flutter_firebase_auth_todo/core/data/firestore_repository.dart';
+// import 'package:flutter_firebase_auth_todo/core/data/functions_repository.dart';
 import 'package:flutter_firebase_auth_todo/core/routes/app_router.dart';
+// import 'package:flutter_firebase_auth_todo/core/widgets/alert_dialogs.dart';
 import 'package:flutter_firebase_auth_todo/features/todo/domain/category.dart';
 import 'package:flutter_firebase_auth_todo/features/todo/presentation/category_list_view.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -18,7 +22,7 @@ class HomeScreen extends ConsumerWidget {
         title: Text('My Categories'),
         actions: [
           // IconButton(
-          //   icon: Icon(Icons.delete),
+          //   icon: const Icon(Icons.delete),
           //   onPressed: () async {
           //     try {
           //       await ref.read(functionsRepositoryProvider).deleteAllUserJobs();

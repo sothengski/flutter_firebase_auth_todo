@@ -43,6 +43,7 @@ dependencies:
   firebase_ui_firestore: ^2.0.1
   faker: ^2.2.0
   intl: ^0.20.2
+  cloud_functions: ^6.0.4
 
 dev_dependencies:
   flutter_test:
